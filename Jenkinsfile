@@ -1,9 +1,14 @@
 pipeline {
     agent { 
-            dockerfile {
-                dir 'todo-list' 
-            }
+        dockerfile {
+            dir 'todo-list' 
         }
+    } 
+
+    triggers {
+        pollSCM('H/1 * * * *')
+    }
+    
     stages {
         stage('Test') {
             steps {
