@@ -3,7 +3,7 @@ import Fastify from 'fastify';
 const fastify = Fastify({ logger: true });
 
 fastify.get('/', async (request, reply) => {
-  return { message: 'Hello from Fastify and TypeScript 2!' };
+  return { message: 'Hello from Fastify and TypeScript 2.0!' };
 });
 
 const start = async () => {
