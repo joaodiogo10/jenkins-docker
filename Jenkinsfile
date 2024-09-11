@@ -33,6 +33,7 @@ pipeline {
   post {
     always {
         sh '''
+          cd todo-list
           docker compose down --remove-orphans -v
           docker compose ps
         '''
