@@ -1,5 +1,5 @@
 pipeline {
-    agent { dockerfile true }
+    agent { dockerfile 'todo-list/Dockerfile' }
     stages {
         stage('Test') {
             steps {
