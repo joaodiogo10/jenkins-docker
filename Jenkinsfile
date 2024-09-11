@@ -22,8 +22,11 @@ pipeline {
     }
     stage('Start container') {
       steps {
-        sh 'docker compose up -d --no-color --wait'
-        sh 'docker compose ps'
+        sh '''
+          cd todo-list
+          docker compose up -d --no-color --wait
+          docker compose ps
+        '''
       }
     }
   }
