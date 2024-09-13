@@ -1,9 +1,9 @@
 import Fastify from 'fastify';
-import firstRoute from './our-first-route'
+import todoRoutes from './routes/todoRoutes'
 
 const fastify = Fastify({ logger: true });
 
-fastify.register(firstRoute)
+fastify.register(todoRoutes, { prefix:  '/todos' });
 
 const start = async () => {
   try {
