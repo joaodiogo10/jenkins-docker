@@ -7,7 +7,6 @@ interface Todo {
   completed: boolean;
 }
 
-
 let todos : Todo[] = [];
 let idCounter = 1;
 
