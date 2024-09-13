@@ -1,10 +1,9 @@
 import Fastify from 'fastify';
+import firstRoute from './our-first-route'
 
 const fastify = Fastify({ logger: true });
 
-fastify.get('/', async (request, reply) => {
-  return { message: 'Hello from Fastify and TypeScript 3.0 from dev!' };
-});
+fastify.register(firstRoute)
 
 const start = async () => {
   try {
