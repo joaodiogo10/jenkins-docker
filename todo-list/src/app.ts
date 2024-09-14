@@ -5,6 +5,7 @@ const fastify = Fastify({ logger: true });
 
 fastify.register(todoRoutes, { prefix:  '/todos' });
 
+
 const start = async () => {
   try {
     await fastify.listen({ port: 3000, host:'0.0.0.0' });
