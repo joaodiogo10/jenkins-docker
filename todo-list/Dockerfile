@@ -1,14 +1,15 @@
-FROM node:18-alpine AS base
+FROM node:22 AS base
 
 WORKDIR /usr/app
 
 COPY ./package*.json ./
 COPY ./tsconfig.json ./
-COPY ./src/ ./src
+COPY ./src ./src
+COPY ./test ./test
 
-RUN npm install
-RUN npm run build
-RUN npm list
+RUN yarn install
+RUN yarn run build
+RUN yarn list
 
 EXPOSE 3000
 
@@ -17,7 +18,7 @@ EXPOSE 3000
 #
 FROM base AS development
 
-CMD ["npm", "run", "dev"]
+CMD ["yarn", "run", "dev"]
 
 
 #
@@ -27,4 +28,4 @@ FROM base AS production
 
 RUN npm prune --omit=dev
 
-CMD ["npm", "run", "start"]
+CMD ["yarn", "run", "start"]

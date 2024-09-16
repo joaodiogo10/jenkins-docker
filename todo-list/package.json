@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon src/app.ts",
     "build": "tsc",
-    "start": "node dist/app.js"
+    "start": "node dist/app.js",
+    "test": "tap test/**/*test.ts --disable-coverage --node-arg=--require=ts-node/register --passes --bail"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,9 @@
   },
   "homepage": "https://github.com/joaodiogo10/jenkins-docker#readme",
   "dependencies": {
-    "fastify": "^4.28.1"
+    "fastify": "^4.28.1",
+    "tap": "^21.0.1",
+    "yarn": "^1.22.22"
   },
   "devDependencies": {
     "@types/node": "^22.5.4",

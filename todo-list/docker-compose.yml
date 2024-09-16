@@ -15,8 +15,8 @@ services:
     command: >
       sh -c "
       if [ ${NODE_ENV} = development ]; then
-        npm run dev;
+        yarn test && yarn run dev;
       else
-        npm run start;
+        yarn run start;
       fi
       "
