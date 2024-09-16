@@ -20,6 +20,7 @@ pipeline {
       steps {
         sh '''
           cd todo-list
+          export NODE_ENV=development
           docker compose up -d --no-color --wait
           docker compose ps
         '''
