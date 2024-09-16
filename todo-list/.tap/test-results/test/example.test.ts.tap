@@ -2,6 +2,6 @@ TAP version 14
 # Subtest: this is a child test
     ok 1 - this passes
     1..1
-ok 1 - this is a child test # time=2.957ms
+ok 1 - this is a child test # time=2.135ms
 
 1..1

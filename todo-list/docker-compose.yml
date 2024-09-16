@@ -14,9 +14,9 @@ services:
 
     command: >
       sh -c "
-      if [ ${NODE_ENV} = development ]; then
-        yarn test && yarn run dev;
+      if [ \"$NODE_ENV\" = \"production\" ]; then
+        yarn run build && yarn run start;
       else
-        yarn run start;
+        yarn test && yarn run dev;
       fi
       "

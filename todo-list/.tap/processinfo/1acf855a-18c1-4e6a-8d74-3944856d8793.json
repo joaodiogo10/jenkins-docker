@@ -1,5 +1,5 @@
 {
-  "date": "2024-09-16T11:47:12.539Z",
+  "date": "2024-09-16T12:02:58.285Z",
   "argv": [
     "/home/joao/.nvm/versions/node/v22.8.0/bin/node",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/test/example.test.ts"
@@ -13,10 +13,10 @@
   ],
   "NODE_OPTIONS": "\"--import=file:///home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/processinfo/dist/esm/import.mjs\"",
   "cwd": "/home/joao/personal/jenkins-pipeline/github-repos/todo-list",
-  "pid": 77611,
-  "ppid": 77600,
+  "pid": 88220,
+  "ppid": 88209,
   "parent": null,
-  "uuid": "4d8d2649-dc2b-402f-9166-4378f434e0ea",
+  "uuid": "1acf855a-18c1-4e6a-8d74-3944856d8793",
   "files": [
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/test/example.test.ts",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@isaacs/ts-node-temp-fork-for-pr-2009/import.mjs",
@@ -30,8 +30,6 @@
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/mock/dist/esm/munge-mocks.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/mock/dist/esm/resolve-mock-entry-point.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/mock/dist/esm/service-key.js",
-    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/stack/dist/esm/call-site-like.js",
-    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/stack/dist/esm/require-resolve.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/get-all-conditional-values.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/get-all-conditions.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/get-unique-condition-sets.js",
@@ -39,26 +37,28 @@
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/resolve-all-local-imports.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/resolve-conditional-value.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/resolve-import.js",
+    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/stack/dist/esm/call-site-like.js",
+    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/stack/dist/esm/require-resolve.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/is-windows.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/get-conditional-values-list.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/errors.js",
-    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/file-exists.js",
-    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/resolve-dependency-export.js",
-    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/resolve-package-import.js",
-    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/to-file-url.js",
-    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/to-path.js",
-    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/stack/dist/esm/parse.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/get-named-exports-list.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/read-pkg.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/resolve-export.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/star-glob.js",
+    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/to-path.js",
+    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/file-exists.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/find-dep-package.js",
-    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/walk-up-path/dist/esm/index.js",
-    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/find-star-match.js",
+    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/to-file-url.js",
+    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/resolve-dependency-export.js",
+    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/resolve-package-import.js",
+    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/stack/dist/esm/parse.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/read-json.js",
+    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/find-star-match.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/dist/esm/index.js",
-    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/node_modules/minimatch/dist/esm/index.js",
+    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/walk-up-path/dist/esm/index.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/dist/esm/glob.js",
+    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/node_modules/minimatch/dist/esm/index.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/dist/esm/has-magic.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/dist/esm/ignore.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/node_modules/minimatch/dist/esm/assert-valid-pattern.js",
@@ -68,9 +68,9 @@
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/path-scurry/dist/esm/index.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/dist/esm/pattern.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/dist/esm/walker.js",
-    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/node_modules/minimatch/dist/esm/brace-expressions.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/minipass/dist/esm/index.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/dist/esm/processor.js",
+    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/node_modules/minimatch/dist/esm/brace-expressions.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/path-scurry/node_modules/lru-cache/dist/esm/index.js",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/mock/dist/esm/loader.mjs",
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/mock/dist/esm/hooks.mjs",
@@ -104,12 +104,6 @@
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/mock/dist/esm/service-key.js": [
       "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/mock/src/service-key.ts"
     ],
-    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/stack/dist/esm/call-site-like.js": [
-      "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/stack/src/call-site-like.ts"
-    ],
-    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/stack/dist/esm/require-resolve.js": [
-      "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/stack/src/require-resolve.ts"
-    ],
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/get-all-conditional-values.js": [
       "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/src/get-all-conditional-values.ts"
     ],
@@ -131,6 +125,12 @@
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/resolve-import.js": [
       "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/src/resolve-import.ts"
     ],
+    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/stack/dist/esm/call-site-like.js": [
+      "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/stack/src/call-site-like.ts"
+    ],
+    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/stack/dist/esm/require-resolve.js": [
+      "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/stack/src/require-resolve.ts"
+    ],
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/is-windows.js": [
       "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/src/is-windows.ts"
     ],
@@ -139,24 +139,6 @@
     ],
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/errors.js": [
       "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/src/errors.ts"
-    ],
-    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/file-exists.js": [
-      "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/src/file-exists.ts"
-    ],
-    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/resolve-dependency-export.js": [
-      "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/src/resolve-dependency-export.ts"
-    ],
-    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/resolve-package-import.js": [
-      "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/src/resolve-package-import.ts"
-    ],
-    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/to-file-url.js": [
-      "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/src/to-file-url.ts"
-    ],
-    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/to-path.js": [
-      "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/src/to-path.ts"
-    ],
-    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/stack/dist/esm/parse.js": [
-      "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/stack/src/parse.ts"
     ],
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/get-named-exports-list.js": [
       "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/src/get-named-exports-list.ts"
@@ -170,26 +152,44 @@
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/star-glob.js": [
       "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/src/star-glob.ts"
     ],
+    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/to-path.js": [
+      "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/src/to-path.ts"
+    ],
+    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/file-exists.js": [
+      "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/src/file-exists.ts"
+    ],
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/find-dep-package.js": [
       "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/src/find-dep-package.ts"
     ],
-    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/walk-up-path/dist/esm/index.js": [
-      "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/walk-up-path/src/index.ts"
+    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/to-file-url.js": [
+      "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/src/to-file-url.ts"
     ],
-    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/find-star-match.js": [
-      "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/src/find-star-match.ts"
+    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/resolve-dependency-export.js": [
+      "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/src/resolve-dependency-export.ts"
+    ],
+    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/resolve-package-import.js": [
+      "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/src/resolve-package-import.ts"
+    ],
+    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/stack/dist/esm/parse.js": [
+      "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/@tapjs/stack/src/parse.ts"
     ],
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/read-json.js": [
       "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/src/read-json.ts"
     ],
+    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/dist/esm/find-star-match.js": [
+      "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/resolve-import/src/find-star-match.ts"
+    ],
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/dist/esm/index.js": [
       "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/src/index.ts"
     ],
-    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/node_modules/minimatch/dist/esm/index.js": [
-      "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/node_modules/minimatch/src/index.ts"
+    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/walk-up-path/dist/esm/index.js": [
+      "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/walk-up-path/src/index.ts"
     ],
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/dist/esm/glob.js": [
       "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/src/glob.ts"
+    ],
+    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/node_modules/minimatch/dist/esm/index.js": [
+      "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/node_modules/minimatch/src/index.ts"
     ],
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/dist/esm/has-magic.js": [
       "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/src/has-magic.ts"
@@ -218,22 +218,22 @@
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/dist/esm/walker.js": [
       "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/src/walker.ts"
     ],
-    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/node_modules/minimatch/dist/esm/brace-expressions.js": [
-      "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/node_modules/minimatch/src/brace-expressions.ts"
-    ],
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/minipass/dist/esm/index.js": [
       "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/minipass/src/index.ts"
     ],
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/dist/esm/processor.js": [
       "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/src/processor.ts"
     ],
+    "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/node_modules/minimatch/dist/esm/brace-expressions.js": [
+      "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/glob/node_modules/minimatch/src/brace-expressions.ts"
+    ],
     "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/path-scurry/node_modules/lru-cache/dist/esm/index.js": [
       "/home/joao/personal/jenkins-pipeline/github-repos/todo-list/node_modules/path-scurry/node_modules/lru-cache/src/index.ts"
     ]
   },
-  "root": "4d8d2649-dc2b-402f-9166-4378f434e0ea",
+  "root": "1acf855a-18c1-4e6a-8d74-3944856d8793",
   "externalID": "test/example.test.ts",
   "code": 0,
   "signal": null,
-  "runtime": 492.505755
+  "runtime": 484.199044
 }
